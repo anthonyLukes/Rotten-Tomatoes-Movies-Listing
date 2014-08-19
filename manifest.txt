@@ -1,0 +1,46 @@
+Nerdery RequireJS Boilerplate
+version 1.0.0
+http://js.nerderylabs.com/boilerplates
+
+build-main.js                                   /* Build options, used for r.js optimizer */
+run-build.bat                                   /* Windows batch file for running r.js optimizer */
+run-build.sh                                    /* Mac shell script for running r.js optimizer */
+
+/tools
+    /node_modules
+        /r
+            r.js                                /* RequireJs optimizer. Command-line tool used to build optimized scripts. */
+    /windows
+        node.exe                                /* Nodejs 32-bit executable for windows. A dependency for running the r.js optimizer. */
+        node32.exe                              /* Nodejs 64-bit executable for windows. A dependency for running the r.js optimizer. */
+    /mac
+    /node
+        /bin
+        node                                    /* Nodejs 64-bit executable for Mac. A dependency for running the r.js optimizer. */
+    /node32
+        /bin
+                node                            /* Nodejs 32-bit executable for Mac. A dependency for running the r.js optimizer. */
+
+/web
+    /assets
+        /fonts
+        /images
+        /scripts
+            /build                              /* r.js optimizer will place built scripts here */
+            /src
+                /lib                            /* Custom libraries]
+                    Util.js                     /* Common utility functions]
+                /lib-thirdparty                 /* 3rd-party libraries]
+                    jquery-*.js 
+                    jquery-ui-*.js
+                    require.js
+                /polyfills              
+                    function.bind.js            /* Polyfill for older browsers that do not support native Function.bind() */
+                    requestAnimationFrame.js    /* Polyfill for older browsers that do not support native requestAnimationFrame() */
+                /views
+                    SampleView.js               /* A sample view class */
+                App.js                          /* Initializes the application */
+                config.js                       /* Shared configuration file */
+                main.js                         /* Main entry point */
+        /styles
+        /uploads

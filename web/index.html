@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="movieApp">
+<head>
+    <!-- META DATA -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <!--[if IE]>
+    <meta http-equiv="cleartype" content="on" />
+    <![endif]-->
+
+    <!-- SEO -->
+    <title>Movie Listing</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="index,follow,archive" />
+
+    <!-- ICONS -->
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" media="screen, projection" href="assets/styles/screen.css" />
+</head>
+<body ng-controller="MoviesController as movieList">
+    <div class="modal isHidden js-modal">
+        <div class="modal-view">
+            <span class="hdg hdg_modalTitle">Page Error</span>
+            <p>
+                There was an error loading the movies, please refresh your page and try again later.
+            </p>
+        </div>
+    </div>
+
+    <div class="page-wrapper">
+        <div class="masthead">
+            <div class="masthead-header">
+                <h1 class="hdg hdg_pageTitle">Movie Listing</h1>
+            </div>
+
+            <form class="masthead-controls" ng-submit="updateMovies()">
+                <fieldset>
+                    <legend class="isVisuallyHidden">Control how movies are listed.</legend>
+
+                    <label class="isVisuallyHidden" for="sort">Sort Movies</label>
+                    <select class="js-sort" name="sort" id="sort" ng-model="movieList.movieSortTemp">
+                        <option value="-ratings.critics_score">Critics Score Descending</option>
+                        <option value="ratings.critics_score">Critics Score Ascending</option>
+                        <option value="-ratings.audience_score">Audience Score Descending</option>
+                        <option value="ratings.audience_score">Audience Score Ascending</option>
+                        <option value="-release_dates.theater">Most Recent Theater Date</option>
+                        <option value="release_dates.theater">Oldest Theater Date</option>
+                    </select>
+
+                    <label class="isVisuallyHidden" for="limit">Limit number of movies</label>
+                    <select name="limit" id="limit" ng-model="movieList.moviesLimitTemp">
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                    </select>
+
+                    <input type="submit" class="js-update" value="update" />
+                </fieldset>
+            </form> <!-- END masthead-controls -->
+        </div> <!-- END masthead -->
+
+
+        <ul class="mediaList">
+            <li class="mediaList-item" ng-repeat="movie in movieList.movies | orderBy: movieList.movieSort | limitTo: movieList.moviesLimit">
+                <div class="mediaList-item-meta">
+                    <div class="media">
+                        <div class="media-img media-img_poster">
+                            <img ng-src="{{movie.posters.thumbnail}}" alt="{{movie.title}}" />
+                        </div>
+                        <div class="media-bd">
+                            <h2 class="hdg hdg_movieTitle js-title">{{movie.title}}</h2>
+                            <div class="stack">
+                                <div class="stack-chunk">
+                                    <ul class="hList mix-hList_spaced">
+                                        <li><span>{{movie.runtime}} min.</span></li>
+                                        <li><span>{{movie.release_dates.theater | date : 'mediumDate'}}</span></li>
+                                        <li><span>{{movie.mpaa_rating}}</span></li>
+                                    </ul>
+                                </div>
+                                <div class="stack-chunk">
+                                    <ul class="hList">
+                                        <li><span class="rating" ng-class="{'rating_certifiedFresh':movie.ratings.critics_rating === 'Certified Fresh','rating_fresh':movie.ratings.critics_rating === 'Fresh','rating_rotten':movie.ratings.critics_rating === 'Rotten','rating_spilled':movie.ratings.critics_rating === 'Spilled','rating_unknown':movie.ratings.critics_rating === 'Unknown','rating_upright':movie.ratings.critics_rating === 'Upright'}">{{movie.ratings.critics_score}} - {{movie.ratings.critics_rating}}</span></li>
+                                        <li><span class="rating" ng-class="{'rating_certifiedFresh':movie.ratings.audience_rating === 'Certified Fresh','rating_fresh':movie.ratings.audience_rating === 'Fresh','rating_rotten':movie.ratings.audience_rating === 'Rotten','rating_spilled':movie.ratings.audience_rating === 'Spilled','rating_unknown':movie.ratings.audience_rating === 'Unknown','rating_upright':movie.ratings.audience_rating === 'Upright'}">{{movie.ratings.audience_score}} - {{movie.ratings.audience_rating}}</span></li>
+                                    </ul>
+                                </div>
+                            </div> <!-- END stack -->
+                        </div> <!-- END media-bd -->
+                    </div> <!-- END media -->
+                </div> <!-- END mediaList-item-meta -->
+                <div class="mediaList-item-description">
+                    <p>{{movie.synopsis}}</p>
+                </div>
+            </li> <!-- END mediaList-item -->
+        </ul> <!-- END mediaList -->
+    </div> <!-- END page-wrapper -->
+    <script src="assets/scripts/vendor/angular/angular.min.js"></script>
+    <script src="assets/scripts/app.js"></script>
+</body>
+</html>

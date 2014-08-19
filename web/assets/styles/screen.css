@@ -1,0 +1,319 @@
+/* ---------------------------------------------------------------------
+Original Author:
+Contributors:
+
+Target Browsers: All
+Media Type: Screen, Projection
+Width: All Sizes
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+RESET CSS (thanks Eric Meyer)
+------------------------------------------------------------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+:focus {
+    outline: 0;
+}
+
+/* Always show a vertical scrollbar, even when there is no scrolling */
+html {
+    overflow-y: scroll;
+}
+
+/* Don't let iOS and WinMobile mobile-optimize text for you */
+/* Turn this rule on for mobile sites or sites using mediaqueries */
+/*
+html {
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+*/
+
+/* ---------------------------------------------------------------------
+ HTML5 Block / Inline Block declarations
+------------------------------------------------------------------------ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+}
+
+/* ---------------------------------------------------------------------
+ Form Reset Styles
+------------------------------------------------------------------------ */
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+input[type=search] {
+    -webkit-appearance: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/* ---------------------------------------------------------------------
+ utilities
+------------------------------------------------------------------------ */
+
+.isVisuallyHidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+}
+
+.isHidden {
+    display: none;
+}
+
+/* ---------------------------------------------------------------------
+ Media Object
+------------------------------------------------------------------------ */
+
+.media {
+    overflow: hidden;
+}
+
+.media-img {
+    float: left;
+    margin-right: 12px;
+}
+
+.media-img_poster {
+    width: 61px;
+    height: 91px;
+}
+
+.media-bd {
+    overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------
+ Boxes
+------------------------------------------------------------------------ */
+
+.box {
+    padding: 10px 20px;
+}
+
+.box_movieListing:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+
+
+/* ---------------------------------------------------------------------
+ stack
+------------------------------------------------------------------------ */
+
+/* .stack {} */
+
+.stack-chunk + .stack-chunk {
+    margin-top: 10px;
+}
+
+/* ---------------------------------------------------------------------
+ Headings
+------------------------------------------------------------------------ */
+
+.hdg {
+    color: #111111;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.hdg_pageTitle {
+    font-size: 24px;
+}
+
+.hdg_modalTitle {
+    margin-bottom: 6px;
+}
+
+.hdg_movieTitle {
+    margin-bottom: 10px;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* ---------------------------------------------------------------------
+ Masthead
+------------------------------------------------------------------------ */
+
+.masthead {
+    padding: 20px;
+    border-bottom: 4px solid #aaaaaa;
+    background-color: #eeeeee;
+}
+
+.masthead-header {
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------------------
+ mediaList
+------------------------------------------------------------------------ */
+
+.mediaList {
+    position: relative;
+}
+
+.mediaList-item {
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+.mediaList-item:nth-of-type(even) {
+    background-color: #dddddd;
+}
+
+
+.mediaList-item-meta {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .mediaList-item-meta {
+        display: table-cell;
+        min-width: 350px;
+        margin-bottom: 0;
+    }
+
+    .mediaList-item-description {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+/* States */
+
+.mediaList-item:hover {
+    background-color: #aaddff;
+}
+
+/* ---------------------------------------------------------------------
+ hList
+------------------------------------------------------------------------ */
+
+.hList {
+    overflow: hidden;
+}
+
+.hList > * {
+    float: left;
+}
+
+.hList > * + * {
+    margin-left: 5px;
+}
+
+.mix-hList_spaced > * + * {
+    margin-left: 10px;
+}
+
+/* ---------------------------------------------------------------------
+ rating
+------------------------------------------------------------------------ */
+
+.rating {
+    display: block;
+    padding: 5px;
+    border-radius: 99px;
+}
+
+.rating_certifiedFresh { background-color: #00aa00; }
+.rating_fresh { background-color: #006600; }
+.rating_rotten { background-color: #964b00; }
+.rating_spilled { background-color: #87410e; }
+.rating_unknown { background-color: #000099; }
+.rating_upright { background-color: #ee204d; }
+
+/* ---------------------------------------------------------------------
+ modal
+------------------------------------------------------------------------ */
+
+.modal {
+    position: fixed;
+    padding: 22px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 25, 25);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.modal-view {
+    margin: 200px auto;
+    padding: 22px;
+    width: 40%;
+    border: 10px solid #cccccc;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
