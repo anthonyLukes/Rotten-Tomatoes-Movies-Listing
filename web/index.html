@@ -23,7 +23,7 @@
     <!-- STYLESHEETS -->
     <link rel="stylesheet" media="screen, projection" href="assets/styles/screen.css" />
 </head>
-<body ng-controller="MoviesController as movieList">
+<body ng-controller="MoviesController">
     <div class="modal isHidden js-modal">
         <div class="modal-view">
             <span class="hdg hdg_modalTitle">Page Error</span>
@@ -44,7 +44,7 @@
                     <legend class="isVisuallyHidden">Control how movies are listed.</legend>
 
                     <label class="isVisuallyHidden" for="sort">Sort Movies</label>
-                    <select class="js-sort" name="sort" id="sort" ng-model="movieList.movieSortTemp">
+                    <select class="js-sort" name="sort" id="sort" ng-model="movieSortTemp">
                         <option value="-ratings.critics_score">Critics Score Descending</option>
                         <option value="ratings.critics_score">Critics Score Ascending</option>
                         <option value="-ratings.audience_score">Audience Score Descending</option>
@@ -54,7 +54,7 @@
                     </select>
 
                     <label class="isVisuallyHidden" for="limit">Limit number of movies</label>
-                    <select name="limit" id="limit" ng-model="movieList.moviesLimitTemp">
+                    <select name="limit" id="limit" ng-model="moviesLimitTemp">
                         <option value="10">10</option>
                         <option value="15">15</option>
                         <option value="20">20</option>
@@ -68,7 +68,7 @@
 
 
         <ul class="mediaList">
-            <li class="mediaList-item" ng-repeat="movie in movieList.movies | orderBy: movieList.movieSort | limitTo: movieList.moviesLimit">
+            <li class="mediaList-item" ng-repeat="movie in movies | orderBy: movieSort | limitTo: moviesLimit">
                 <div class="mediaList-item-meta">
                     <div class="media">
                         <div class="media-img media-img_poster">
@@ -86,8 +86,8 @@
                                 </div>
                                 <div class="stack-chunk">
                                     <ul class="hList">
-                                        <li><span class="rating" ng-class="{'rating_certifiedFresh':movie.ratings.critics_rating === 'Certified Fresh','rating_fresh':movie.ratings.critics_rating === 'Fresh','rating_rotten':movie.ratings.critics_rating === 'Rotten','rating_spilled':movie.ratings.critics_rating === 'Spilled','rating_unknown':movie.ratings.critics_rating === 'Unknown','rating_upright':movie.ratings.critics_rating === 'Upright'}">{{movie.ratings.critics_score}} - {{movie.ratings.critics_rating}}</span></li>
-                                        <li><span class="rating" ng-class="{'rating_certifiedFresh':movie.ratings.audience_rating === 'Certified Fresh','rating_fresh':movie.ratings.audience_rating === 'Fresh','rating_rotten':movie.ratings.audience_rating === 'Rotten','rating_spilled':movie.ratings.audience_rating === 'Spilled','rating_unknown':movie.ratings.audience_rating === 'Unknown','rating_upright':movie.ratings.audience_rating === 'Upright'}">{{movie.ratings.audience_score}} - {{movie.ratings.audience_rating}}</span></li>
+                                        <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.critics_rating)">{{movie.ratings.critics_score}} - {{movie.ratings.critics_rating}}</span></li>
+                                        <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.audience_rating)">{{movie.ratings.audience_score}} - {{movie.ratings.audience_rating}}</span></li>
                                     </ul>
                                 </div>
                             </div> <!-- END stack -->
