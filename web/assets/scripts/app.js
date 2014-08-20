@@ -48,11 +48,4 @@
             $scope.movies = data.movies;
         });
     }]);
-
-    app.directive('movieListDisplay', function() {
-        return {
-            restrict: 'A',
-            templateUrl: 'assets/scripts/movieListDisplayTemplate.html'
-        }
-    });
 })();
