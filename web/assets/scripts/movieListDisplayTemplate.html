@@ -1,0 +1,25 @@
+<form class="masthead-controls" ng-submit="updateMovies()">
+    <fieldset>
+        <legend class="isVisuallyHidden">Control how movies are listed.</legend>
+
+        <label class="isVisuallyHidden" for="sort">Sort Movies</label>
+        <select class="js-sort" name="sort" id="sort" ng-model="movieSortTemp">
+            <option value="-ratings.critics_score">Critics Score Descending</option>
+            <option value="ratings.critics_score">Critics Score Ascending</option>
+            <option value="-ratings.audience_score">Audience Score Descending</option>
+            <option value="ratings.audience_score">Audience Score Ascending</option>
+            <option value="-release_dates.theater">Most Recent Theater Date</option>
+            <option value="release_dates.theater">Oldest Theater Date</option>
+        </select>
+
+        <label class="isVisuallyHidden" for="limit">Limit number of movies</label>
+        <select name="limit" id="limit" ng-model="moviesLimitTemp">
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+        </select>
+
+        <input type="submit" class="js-update" value="update" />
+    </fieldset>
+</form> <!-- END masthead-controls -->

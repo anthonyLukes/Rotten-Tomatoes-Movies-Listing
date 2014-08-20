@@ -40,8 +40,19 @@
         };
 
         // get & set movies from jsonp call
-        $http.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=gz5uhgtn2my2zy7dsfmnjyrb&page_limit=25&callback=JSON_CALLBACK').success(function(data) {
+        // $http.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=gz5uhgtn2my2zy7dsfmnjyrb&page_limit=25&callback=JSON_CALLBACK').success(function(data) {
+        //     $scope.movies = data.movies;
+        // });
+
+        $http.get('assets/data/movies.json').success(function(data) {
             $scope.movies = data.movies;
         });
     }]);
+
+    app.directive('movieListDisplay', function() {
+        return {
+            restrict: 'A',
+            templateUrl: 'assets/scripts/movieListDisplayTemplate.html'
+        }
+    });
 })();
