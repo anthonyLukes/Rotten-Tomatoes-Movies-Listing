@@ -317,3 +317,11 @@ textarea {
     border-radius: 10px;
     background-color: #eeeeee;
 }
+
+/* ---------------------------------------------------------------------
+ Image Constrained
+------------------------------------------------------------------------ */
+.imgContstrained {
+    max-width: 61px;
+    height: auto;
+}
