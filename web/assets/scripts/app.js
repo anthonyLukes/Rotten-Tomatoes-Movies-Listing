@@ -32,8 +32,29 @@
         };
     });
 
-    app.controller("MoviesController", ["$http","$scope", function($http,$scope) {
+    app.factory('moviesProvider', function($q, $http) {
+        var MoviesProvider = {
+            getMovies: function() {
+
+                var deferred = $q.defer();
+
+                $http.get("assets/data/movies.json").success(function(data){
+                    deferred.resolve(data);
+                }).error(function(data){
+                    deferred.reject(data);
+                });
+
+
+                return deferred.promise;
+            }
+        }
+
+        return MoviesProvider;
+    });
+
+    app.controller("MoviesController", ["$http","$scope", "moviesProvider", function($http,$scope,moviesProvider) {
         $scope.movies = [];
+        $scope.movieLoadingError = false;
 
         $scope.displayOptions = {
             movieSort: "ratings.critics_score",
@@ -81,8 +102,12 @@
         //     $scope.movies = data.movies;
         // });
 
-        $http.get("assets/data/movies.json").success(function(data) {
+        moviesProvider.getMovies().then(function(data) {
+            // success
             $scope.movies = data.movies;
+        }, function(reason) {
+            // error
+            $scope.movieLoadingError = true;
         });
     }]);
 })();

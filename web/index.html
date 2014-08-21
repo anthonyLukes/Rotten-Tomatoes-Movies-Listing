@@ -24,7 +24,7 @@
     <link rel="stylesheet" media="screen, projection" href="assets/styles/screen.css" />
 </head>
 <body ng-controller="MoviesController">
-    <div class="modal isHidden js-modal">
+    <div class="modal js-modal" ng-show="movieLoadingError">
         <div class="modal-view">
             <span class="hdg hdg_modalTitle">Page Error</span>
             <p>
