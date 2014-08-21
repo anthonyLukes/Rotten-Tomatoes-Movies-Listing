@@ -8,7 +8,7 @@
             "mpaaRating": "PG-13",
             "runtime": "148",
             "criticsConsensus": "Superman's return to the big screen is mostly successful, as Man of Steel provides enough exhilarating action and spectacle to overcome its occasional detours into generic blockbuster territory.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -80,7 +80,7 @@
             "mpaaRating": "G",
             "runtime": "95",
             "criticsConsensus": "It doesn't scale the heights of Pixar's finest efforts, but Monsters University is still funny and thoughtful family entertainment for viewers of any age.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -152,7 +152,7 @@
             "mpaaRating": "PG-13",
             "runtime": "115",
             "criticsConsensus": "It's uneven -- and fans of the book may be annoyed by how thoroughly it diverges from the source material -- but World War Z still brings smart, fast-moving thrills and a solid performance from Brad Pitt to the zombie genre.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -224,7 +224,7 @@
             "mpaaRating": "R",
             "runtime": "119",
             "criticsConsensus": "Energetic, self-deprecating performances and enough guffaw-inducing humor make up for the flaws in This Is the End loosely written script.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-12"
             },
             "ratings": {
@@ -296,7 +296,7 @@
             "mpaaRating": "PG-13",
             "runtime": "116",
             "criticsConsensus": "Now You See Me's thinly sketched characters and scattered plot rely on sleight of hand from the director to distract audiences.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31"
             },
             "ratings": {
@@ -368,7 +368,7 @@
             "mpaaRating": "PG-13",
             "runtime": "130",
             "criticsConsensus": "With high-octane humor and terrific action scenes, Fast & Furious 6 builds upon the winning blockbuster formula that made Fast 5 a critical and commercial success.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-24"
             },
             "ratings": {
@@ -440,7 +440,7 @@
             "mpaaRating": "R",
             "runtime": "85",
             "criticsConsensus": "Half social allegory, half home-invasion thriller, The Purge attempts to use thriller formula to make an intelligent point -- but ultimately only ends up sinking in numbing violence and tired cliches.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -512,7 +512,7 @@
             "mpaaRating": "PG",
             "runtime": "104",
             "criticsConsensus": "Though its narrative themes are all too familiar, Epic is beautifully animated and crafted with just enough flair to make for solid family entertainment.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-24"
             },
             "ratings": {
@@ -582,7 +582,7 @@
             "mpaaRating": "PG-13",
             "runtime": "119",
             "criticsConsensus": "The Internship weighs down Vince Vaughn and Owen Wilson's comic charisma with a formulaic script and padded running time that leans heavily on its stars' easygoing interplay.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -654,7 +654,7 @@
             "mpaaRating": "PG-13",
             "runtime": "129",
             "criticsConsensus": "Visually spectacular and suitably action packed, Star Trek Into Darkness is a rock-solid installment in the venerable sci-fi franchise, even if it's not as fresh as its predecessor.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-16"
             },
             "ratings": {
@@ -726,7 +726,7 @@
             "mpaaRating": "PG-13",
             "runtime": "100",
             "criticsConsensus": "After Earth is dull, ploddingly paced exercise in sentimental sci-fi -- and the latest setback for director M. Night Shyamalan's once-promising career.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31"
             },
             "ratings": {
@@ -779,7 +779,7 @@
             "mpaaRating": "PG-13",
             "runtime": "109",
             "criticsConsensus": "With the help of its charismatic lead, some impressive action sequences, and even a few surprises, Iron Man 3 is a witty, entertaining adventure and a strong addition to the Marvel canon.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-03"
             },
             "ratings": {
@@ -854,7 +854,7 @@
             "mpaaRating": "R",
             "runtime": "90",
             "criticsConsensus": "While it's certainly timely and beautifully filmed, The Bling Ring suffers from director Sofia Coppola's failure to delve beneath the surface of its shallow protagonists' real-life crimes.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -926,7 +926,7 @@
             "mpaaRating": "R",
             "runtime": "108",
             "criticsConsensus": "Building on the first two installments in Richard Linklater's well-crafted Before trilogy, Before Midnight offers intelligent, powerfully acted perspectives on love, marriage, and long-term commitment.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-24"
             },
             "ratings": {
@@ -998,7 +998,7 @@
             "mpaaRating": "R",
             "runtime": "100",
             "criticsConsensus": "Less a comedy than an angrily dark action thriller, The Hangover Part III diverges from the series' rote formula but offers nothing compelling in its place.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-23"
             },
             "ratings": {
@@ -1070,7 +1070,7 @@
             "mpaaRating": "PG-13",
             "runtime": "143",
             "criticsConsensus": "While certainly ambitious -- and every bit as visually dazzling as one might expect -- Baz Luhrmann's The Great Gatsby emphasizes visual splendor at the expense of its source material's vibrant heart.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10"
             },
             "ratings": {
@@ -1143,7 +1143,7 @@
             "mpaaRating": "PG-13",
             "runtime": "128",
             "criticsConsensus": "42 is an earnest, inspirational, and respectfully told biography of an influential American sports icon, though it might be a little too safe and old-fashioned for some.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-12",
                 "dvd": "2013-08-12"
             },
@@ -1216,7 +1216,7 @@
             "mpaaRating": "PG-13",
             "runtime": "109",
             "criticsConsensus": "Lighthearted to a fault, Much Ado About Nothing's giddy energy and intimate charm make for an entertaining romantic comedy -- and a Shakespearean adaptation that's hard to resist.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -1288,7 +1288,7 @@
             "mpaaRating": "PG-13",
             "runtime": "116",
             "criticsConsensus": "Tense, thoughtful, and deftly paced, The East is a political thriller that never loses sight of the human element.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31"
             },
             "ratings": {
@@ -1345,7 +1345,7 @@
             "mpaaRating": "PG-13",
             "runtime": "130",
             "criticsConsensus": "Bolstered by a strong performance from Matthew McConaughey in the title role, Mud offers an engaging Southern drama that manages to stay sweet and heartwarming without being sappy.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26",
                 "dvd": "2013-08-06"
             },
@@ -1403,7 +1403,7 @@
             "mpaaRating": "PG-13",
             "runtime": "124",
             "criticsConsensus": "Visually striking but thinly scripted, Oblivion benefits greatly from its strong production values and an excellent performance from Tom Cruise.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-19",
                 "dvd": "2013-08-06"
             },
@@ -1476,7 +1476,7 @@
             "mpaaRating": "PG-13",
             "runtime": "85",
             "criticsConsensus": "Juvenile even by Scary Movie standards, this fifth installment offers stale pop culture gags that generate few laughs.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-12",
                 "dvd": "2013-08-20"
             },
@@ -1546,7 +1546,7 @@
             "mpaaRating": "PG-13",
             "runtime": "90",
             "criticsConsensus": "Though arguably superior to its predecessor, G.I. Joe: Retaliation is overwhelmed by its nonstop action and too nonsensical and vapid to leave a lasting impression.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-28",
                 "dvd": "2013-07-30"
             },
@@ -1619,7 +1619,7 @@
             "mpaaRating": "R",
             "runtime": "86",
             "criticsConsensus": "Audiences will need to tolerate a certain amount of narrative drift, but thanks to sensitive direction from Noah Baumbach and an endearing performance from Greta Gerwig, Frances Ha makes it easy to forgive.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-17"
             },
             "ratings": {
@@ -1676,7 +1676,7 @@
             "mpaaRating": "R",
             "runtime": "89",
             "criticsConsensus": "The Big Wedding's all-star cast is stranded in a contrived, strained plot that features broad stabs at humor but few laughs.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26",
                 "dvd": "2013-08-13"
             },
@@ -1748,7 +1748,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "140",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -1804,7 +1804,7 @@
             "mpaaRating": "R",
             "runtime": "91",
             "criticsConsensus": "It may lack the absurd humor that underlined the original, but the new-look Evil Dead compensates with brutal terror, gory scares, and gleefully bloody violence.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-05",
                 "dvd": "2013-07-16"
             },
@@ -1877,7 +1877,7 @@
             "mpaaRating": "R",
             "runtime": "95",
             "criticsConsensus": "Thanks to charming performances and endearingly off-kilter spirit, The Kings of Summer proves to be a slight, sweet entry in the crowded coming-of-age genre.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31"
             },
             "ratings": {
@@ -1949,7 +1949,7 @@
             "mpaaRating": "R",
             "runtime": "125",
             "criticsConsensus": "The Company You Keep is a (frustratingly) slow-burning thriller about very contemporary issues.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-05",
                 "dvd": "2013-08-13"
             },
@@ -2022,7 +2022,7 @@
             "mpaaRating": "PG-13",
             "runtime": "101",
             "criticsConsensus": "A well-crafted retelling of an epic true story, Kon Tiki is a throwback to old-school adventure filmmaking that's exciting and entertaining in spite of its by-the-book plotting.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26"
             },
             "ratings": {
@@ -2094,7 +2094,7 @@
             "year": "2013",
             "mpaaRating": "PG",
             "runtime": "90",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-24"
             },
             "ratings": {
@@ -2166,7 +2166,7 @@
             "mpaaRating": "PG-13",
             "runtime": "95",
             "criticsConsensus": "Peeples is a warm, amiable farce that offers a few chuckles but mostly falls back on predictable plotting and an overwrought message.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10"
             },
             "ratings": {
@@ -2238,7 +2238,7 @@
             "mpaaRating": "R",
             "runtime": "140",
             "criticsConsensus": "Ambitious to a fault, The Place Beyond the Pines finds writer/director Derek Cianfrance reaching for -- and often grasping -- thorny themes of family, fatherhood, and fate.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-29",
                 "dvd": "2013-07-23"
             },
@@ -2311,7 +2311,7 @@
             "mpaaRating": "R",
             "runtime": "110",
             "criticsConsensus": "Undeniably slight and fluffy, Love Is All You Need is redeemed by its picturesque setting and warm performances by Pierce Brosnan and Trine Dyrholm.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-03"
             },
             "ratings": {
@@ -2382,7 +2382,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "125",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31",
                 "dvd": "2013-07-15"
             },
@@ -2431,7 +2431,7 @@
             "mpaaRating": "R",
             "runtime": "115",
             "criticsConsensus": "It may be his most thought-provoking film to date, but Michael Bay's Pain & Gain ultimately loses its satirical edge in a stylized flurry of violent spectacle.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26"
             },
             "ratings": {
@@ -2503,7 +2503,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "140",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -2558,7 +2558,7 @@
             "mpaaRating": "R",
             "runtime": "98",
             "criticsConsensus": "It's undeniably difficult to watch at times, but What Maisie Knew ultimately rises on the strength of its solidly sourced script, powerful performances, and empathetic direction.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-03",
                 "dvd": "2013-08-13"
             },
@@ -2631,7 +2631,7 @@
             "mpaaRating": "PG-13",
             "runtime": "108",
             "criticsConsensus": "In Stories We Tell, Sarah Polley plays with the documentary format to explore the nature of memory and storytelling, crafting a thoughtful, compelling narrative that unfolds like a mystery,",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10",
                 "dvd": "2013-09-03"
             },
@@ -2705,7 +2705,7 @@
             "mpaaRating": "R",
             "runtime": "101",
             "criticsConsensus": "As stylish as ever, director Danny Boyle seems to be treading water with the surprisingly thinly written Trance -- but for fans of Boyle's work, it should still prove a trippily entertaining distraction.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-05",
                 "dvd": "2013-07-23"
             },
@@ -2778,7 +2778,7 @@
             "mpaaRating": "R",
             "runtime": "111",
             "criticsConsensus": "Appropriately enough, Renoir offers viewers a drama of sumptuous beauty -- which is more than enough to offset its frustratingly slow pace and rather thinly written screenplay.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-29"
             },
             "ratings": {
@@ -2849,7 +2849,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "87",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -2905,7 +2905,7 @@
             "year": "2013",
             "mpaaRating": "PG",
             "runtime": "",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31"
             },
             "ratings": {
@@ -2960,7 +2960,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "72",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-16"
             },
             "ratings": {
@@ -3033,7 +3033,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "109",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-29"
             },
             "ratings": {
@@ -3105,7 +3105,7 @@
             "mpaaRating": "R",
             "runtime": "130",
             "criticsConsensus": "As fascinating as it is provocative, We Steal Secrets: The Story of Wikileaks presents another documentary triumph for director Alex Gibney, as well as a troubling look at one of the more meaningful issues of our time.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-24"
             },
             "ratings": {
@@ -3162,7 +3162,7 @@
             "mpaaRating": "Unrated",
             "runtime": "122",
             "criticsConsensus": "Insightful, solidly acted, and smartly filmed, Something in the Air skillfully captures the idealism of youth without falling back on cheap nostalgia, although it raises questions of class that it doesn't answer and is narratively somewhat diffuse.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-03"
             },
             "ratings": {
@@ -3233,7 +3233,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "53",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -3289,7 +3289,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "102",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-17"
             },
             "ratings": {
@@ -3345,7 +3345,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "150",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -3400,7 +3400,7 @@
             "mpaaRating": "Unrated",
             "runtime": "94",
             "criticsConsensus": "Its reach may exceed its grasp, but with Berberian Sound Studio, director Peter Strickland assembles a suitably twisted, creepy tribute to the Italian Giallo horror movies of the '70s that benefits from a strong central performance by Toby Jones.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -3471,7 +3471,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "112",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-29",
                 "dvd": "2013-07-09"
             },
@@ -3544,7 +3544,7 @@
             "mpaaRating": "PG-13",
             "runtime": "89",
             "criticsConsensus": "Rich, insightful, and occasionally heartbreaking, 20 Feet From Stardom is an energetic tribute to the passion, talent, and hard work of backup singers.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -3601,7 +3601,7 @@
             "mpaaRating": "R",
             "runtime": "105",
             "criticsConsensus": "While it deserved stronger direction and a more fully realized script, Michael Shannon's riveting performance in the title role is more than enough to make The Iceman recommended viewing.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-03"
             },
             "ratings": {
@@ -3673,7 +3673,7 @@
             "mpaaRating": "R",
             "runtime": "96",
             "criticsConsensus": "A tense, thought-provoking thriller, Shadow Dancer is bolstered by sensitive direction from James Marsh and a terrific performance from Andrea Riseborough.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31",
                 "dvd": "2013-08-20"
             },
@@ -3746,7 +3746,7 @@
             "mpaaRating": "PG-13",
             "runtime": "126",
             "criticsConsensus": "Poorly scripted and dramatically ineffective, The Host is mostly stale and tedious, with moments of unintentional hilarity.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-29",
                 "dvd": "2013-07-09"
             },
@@ -3819,7 +3819,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "80",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-12"
             },
             "ratings": {
@@ -3876,7 +3876,7 @@
             "mpaaRating": "R",
             "runtime": "99",
             "criticsConsensus": "A tense, gripping thriller, A Hijacking avoids action movie cliches and instead creates a palpable sense of dread by mixing gritty realism with atmospheric beauty.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -3932,7 +3932,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "130",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -4002,7 +4002,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "140",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -4057,7 +4057,7 @@
             "mpaaRating": "PG-13",
             "runtime": "93",
             "criticsConsensus": "Scatter My Ashes At Bergdorf's is a fun documentary which ultimately doubles as an infomercial for the Manhattan store.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-03",
                 "dvd": "2013-08-26"
             },
@@ -4117,7 +4117,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "130",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -4168,7 +4168,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "94",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21",
                 "dvd": "2013-07-30"
             },
@@ -4241,7 +4241,7 @@
             "mpaaRating": "R",
             "runtime": "128",
             "criticsConsensus": "The Reluctant Fundamentalist is technically proficient, with solid acting and cinematography, but its message is so ambitious and heavy-handed that some of its power is robbed.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26"
             },
             "ratings": {
@@ -4298,7 +4298,7 @@
             "mpaaRating": "R",
             "runtime": "112",
             "criticsConsensus": "To the Wonder demonstrates Terrence Malick's gift for beautiful images, but its narrative is overly somber and emotionally unsatisfying.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-12",
                 "dvd": "2013-08-06"
             },
@@ -4370,7 +4370,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "98",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -4426,7 +4426,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "93",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21",
                 "dvd": "2013-09-02"
             },
@@ -4484,7 +4484,7 @@
             "mpaaRating": "R",
             "runtime": "105",
             "criticsConsensus": "At Any Price features a terrific performance from Dennis Quaid, and it offers further evidence of Ramin Bahrani's unique eye for detail, but film is weighted down by an overly melodramatic story.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-24"
             },
             "ratings": {
@@ -4555,7 +4555,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-16"
             },
             "ratings": {
@@ -4591,7 +4591,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "113",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -4646,7 +4646,7 @@
             "mpaaRating": "Unrated",
             "runtime": "98",
             "criticsConsensus": "Director Ben Wheatley and writer-stars Alice Lowe and Steve Oram deliver a wicked road trip movie that successfully walks the line between dark comedy and horror.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10"
             },
             "ratings": {
@@ -4717,7 +4717,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "91",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10"
             },
             "ratings": {
@@ -4752,7 +4752,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "112",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-15"
             },
             "ratings": {
@@ -4823,7 +4823,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "180",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-16"
             },
             "ratings": {
@@ -4864,7 +4864,7 @@
             "mpaaRating": "Unrated",
             "runtime": "106",
             "criticsConsensus": "The Angels' Share is a surprisingly delightful, uplifting comedy that successfully blends a charming story of redemption with bits of dark humor and a social message.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-12"
             },
             "ratings": {
@@ -4935,7 +4935,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "89",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26"
             },
             "ratings": {
@@ -4998,7 +4998,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "92",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -5054,7 +5054,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "118",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-12",
                 "dvd": "2013-08-05"
             },
@@ -5112,7 +5112,7 @@
             "mpaaRating": "R",
             "runtime": "89",
             "criticsConsensus": "Smart, slick, and thrilling, Wish You Were Here benefits from a compelling mystery at the center of its tightly wound plot, as well as strong performances from a cast that includes Joel Edgerton.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -5180,7 +5180,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "79",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-20"
             },
             "ratings": {
@@ -5232,7 +5232,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "106",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -5267,7 +5267,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "87",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-22"
             },
             "ratings": {
@@ -5323,7 +5323,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "100",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-19",
                 "dvd": "2013-07-30"
             },
@@ -5396,7 +5396,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "92",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -5467,7 +5467,7 @@
             "year": "2012",
             "mpaaRating": "PG-13",
             "runtime": "105",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-29"
             },
             "ratings": {
@@ -5539,7 +5539,7 @@
             "mpaaRating": "R",
             "runtime": "105",
             "criticsConsensus": "Dark, tense, and wryly funny, In the House is brilliantly directed by Francois Ozon and features fine performances from its talented cast.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-19"
             },
             "ratings": {
@@ -5595,7 +5595,7 @@
             "year": "2012",
             "mpaaRating": "Unrated",
             "runtime": "91",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-12"
             },
             "ratings": {
@@ -5652,7 +5652,7 @@
             "mpaaRating": "Unrated",
             "runtime": "140",
             "criticsConsensus": "Though Midnight's Children is beautiful to look at and poignant in spots, its script is too indulgent and Deepa Mehta's direction, though ambitious, fails to bring the story together cohesively.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26"
             },
             "ratings": {
@@ -5725,7 +5725,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "102",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -5796,7 +5796,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "81",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -5865,7 +5865,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "90",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -5936,7 +5936,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "102",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -6007,7 +6007,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "118",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -6078,7 +6078,7 @@
             "mpaaRating": "PG-13",
             "runtime": "93",
             "criticsConsensus": "It's unabashedly sentimental, but thanks to reliably powerful performances from a well-rounded veteran cast, Unfinished Song proves a sweetly compelling character piece.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -6134,7 +6134,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "155",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -6186,7 +6186,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "90",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -6242,7 +6242,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "155",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-03"
             },
             "ratings": {
@@ -6297,7 +6297,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "84",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -6367,7 +6367,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "81",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-05",
                 "dvd": "2013-08-19"
             },
@@ -6424,7 +6424,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "72",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-08"
             },
             "ratings": {
@@ -6480,7 +6480,7 @@
             "year": "2012",
             "mpaaRating": "Unrated",
             "runtime": "110",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31"
             },
             "ratings": {
@@ -6551,7 +6551,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "90",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14",
                 "dvd": "2013-07-30"
             },
@@ -6619,7 +6619,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "85",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-31"
             },
             "ratings": {
@@ -6690,7 +6690,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "113",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-19"
             },
             "ratings": {
@@ -6746,7 +6746,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "100",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -6802,7 +6802,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "110",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-29",
                 "dvd": "2013-09-02"
             },
@@ -6874,7 +6874,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "100",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26",
                 "dvd": "2013-07-02"
             },
@@ -6949,7 +6949,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "87",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -7010,7 +7010,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "132",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -7065,7 +7065,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "90",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07"
             },
             "ratings": {
@@ -7121,7 +7121,7 @@
             "mpaaRating": "Unrated",
             "runtime": "100",
             "criticsConsensus": "Shocking and bloody. Maniac is smarter than your average psychological slasher, but it's often undermined by its excessive gore.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -7177,7 +7177,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "108",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26"
             },
             "ratings": {
@@ -7247,7 +7247,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "76",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10"
             },
             "ratings": {
@@ -7319,7 +7319,7 @@
             "mpaaRating": "Unrated",
             "runtime": "102",
             "criticsConsensus": "Mysterious and provocative, Room 237 is a fascinating journey into the world of obsessive cinephilles.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-03-29"
             },
             "ratings": {
@@ -7375,7 +7375,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "140",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14",
                 "dvd": "2006-10-31"
             },
@@ -7432,7 +7432,7 @@
             "mpaaRating": "R",
             "runtime": "115",
             "criticsConsensus": "It's didactic in spots and melodramatic in others, but Disconnect's strong cast helps make it a timely, effective exploration of modern society's technological overload.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-12"
             },
             "ratings": {
@@ -7503,7 +7503,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "104",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-17",
                 "dvd": "2013-07-23"
             },
@@ -7560,7 +7560,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "87",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -7616,7 +7616,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "98",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -7670,7 +7670,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "76",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21"
             },
             "ratings": {
@@ -7704,7 +7704,7 @@
             "year": "2012",
             "mpaaRating": "Unrated",
             "runtime": "78",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-24"
             },
             "ratings": {
@@ -7747,7 +7747,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "89",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10"
             },
             "ratings": {
@@ -7818,7 +7818,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "140",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -7872,7 +7872,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "65",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26"
             },
             "ratings": {
@@ -7928,7 +7928,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "93",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-17",
                 "dvd": "2013-08-27"
             },
@@ -8000,7 +8000,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "100",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-07",
                 "dvd": "2013-08-12"
             },
@@ -8059,7 +8059,7 @@
             "year": "2013",
             "mpaaRating": "R",
             "runtime": "88",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-21",
                 "dvd": "2013-08-12"
             },
@@ -8130,7 +8130,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "85",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-04"
             },
             "ratings": {
@@ -8186,7 +8186,7 @@
             "mpaaRating": "Unrated",
             "runtime": "127",
             "criticsConsensus": "While it treads familiar narrative ground -- and is a mite predictable at times -- In the Fog proves a smart, thought-provoking antidote to Hollywood action movies.",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14"
             },
             "ratings": {
@@ -8242,7 +8242,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "88",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-17"
             },
             "ratings": {
@@ -8298,7 +8298,7 @@
             "year": "2013",
             "mpaaRating": "PG-13",
             "runtime": "99",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-10",
                 "dvd": "2013-07-02"
             },
@@ -8355,7 +8355,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "120",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-26",
                 "dvd": "2013-08-05"
             },
@@ -8427,7 +8427,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "140",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-17",
                 "dvd": "2013-07-01"
             },
@@ -8495,7 +8495,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "56",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-24"
             },
             "ratings": {
@@ -8528,7 +8528,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "83",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-04-19"
             },
             "ratings": {
@@ -8584,7 +8584,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "150",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-17"
             },
             "ratings": {
@@ -8635,7 +8635,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "95",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-14",
                 "dvd": "2013-08-06"
             },
@@ -8692,7 +8692,7 @@
             "year": "2013",
             "mpaaRating": "G",
             "runtime": "140",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-06-24"
             },
             "ratings": {
@@ -8743,7 +8743,7 @@
             "year": "2013",
             "mpaaRating": "Unrated",
             "runtime": "170",
-            "releaseDates": {
+            "release_dates": {
                 "theater": "2013-05-12"
             },
             "ratings": {

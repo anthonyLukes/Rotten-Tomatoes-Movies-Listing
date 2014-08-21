@@ -3,7 +3,7 @@
         <legend class="isVisuallyHidden">Control how movies are listed.</legend>
 
         <label class="isVisuallyHidden" for="sort">Sort Movies</label>
-        <select class="js-sort" name="sort" id="sort" ng-model="movieSortTemp">
+        <select class="js-sort" name="sort" id="sort" ng-model="displayOptionsTemporary.movieSort">
             <option value="-ratings.critics_score">Critics Score Descending</option>
             <option value="ratings.critics_score">Critics Score Ascending</option>
             <option value="-ratings.audience_score">Audience Score Descending</option>
@@ -13,7 +13,7 @@
         </select>
 
         <label class="isVisuallyHidden" for="limit">Limit number of movies</label>
-        <select name="limit" id="limit" ng-model="moviesLimitTemp">
+        <select name="limit" id="limit" ng-model="displayOptionsTemporary.moviesLimit">
             <option value="10">10</option>
             <option value="15">15</option>
             <option value="20">20</option>

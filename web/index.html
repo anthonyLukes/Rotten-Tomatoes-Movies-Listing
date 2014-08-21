@@ -44,7 +44,7 @@
 
 
         <ul class="mediaList">
-            <li class="mediaList-item" ng-repeat="movie in movies | orderBy: movieSort | limitTo: moviesLimit">
+            <li class="mediaList-item" ng-repeat="movie in movies | myFilter: displayOptions.movieSort | orderBy: displayOptions.movieSort | limitTo: displayOptions.moviesLimit">
                 <div class="mediaList-item-meta">
                     <div class="media">
                         <div class="media-img media-img_poster">
