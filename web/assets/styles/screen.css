@@ -325,3 +325,43 @@ textarea {
     max-width: 61px;
     height: auto;
 }
+
+/* ---------------------------------------------------------------------
+ Tabbed Content
+------------------------------------------------------------------------ */
+.tabbedContent {
+    border: 1px solid #000000;
+}
+
+.tabbedContent-nav:before,
+.tabbedContent-nav:after {
+    content: " ";
+    display: table;
+}
+
+.tabbedContent-nav:after {
+    clear: both;
+}
+
+.tabbedContent-nav > * {
+    float: left;
+}
+
+.tabbedContent-nav > * + * > a {
+    border-left: 1px solid #000000;
+}
+
+.tabbedContent-nav > * > a {
+    display: inline-block;
+    padding: 10px;
+    color: #000000;
+}
+
+.tabbedContent-nav-item_isActive {
+    background-color: #999999;
+}
+
+.tabbedContent-panel {
+    background-color: #999999;
+    padding: 15px;
+}

@@ -42,39 +42,43 @@
             <div ng-include="'assets/scripts/movieListDisplayTemplate.html'"></div>
         </div> <!-- END masthead -->
 
-
-        <ul class="mediaList">
-            <li class="mediaList-item" ng-repeat="movie in movies | myFilter: displayOptions.movieSort | orderBy: displayOptions.movieSort | limitTo: displayOptions.moviesLimit">
-                <div class="mediaList-item-meta">
-                    <div class="media">
-                        <div class="media-img media-img_poster">
-                            <img class="imgContstrained" ng-src="{{movie.posters.thumbnail}}" alt="{{movie.title}}" />
-                        </div>
-                        <div class="media-bd">
-                            <h2 class="hdg hdg_movieTitle js-title">{{movie.title}}</h2>
-                            <div class="stack">
-                                <div class="stack-chunk">
-                                    <ul class="hList mix-hList_spaced">
-                                        <li><span>{{movie.runtime}} min.</span></li>
-                                        <li><span>{{movie.release_dates.theater | date : 'mediumDate'}}</span></li>
-                                        <li><span>{{movie.mpaa_rating}}</span></li>
-                                    </ul>
-                                </div>
-                                <div class="stack-chunk">
-                                    <ul class="hList">
-                                        <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.critics_rating)">{{movie.ratings.critics_score}} - {{movie.ratings.critics_rating}}</span></li>
-                                        <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.audience_rating)">{{movie.ratings.audience_score}} - {{movie.ratings.audience_rating}}</span></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- END stack -->
-                        </div> <!-- END media-bd -->
-                    </div> <!-- END media -->
-                </div> <!-- END mediaList-item-meta -->
-                <div class="mediaList-item-description">
-                    <p>{{movie.synopsis}}</p>
-                </div>
-            </li> <!-- END mediaList-item -->
-        </ul> <!-- END mediaList -->
+        <div class="stack-chunk">
+            <ul class="mediaList">
+                <li class="mediaList-item" ng-repeat="movie in movies | myFilter: displayOptions.movieSort | orderBy: displayOptions.movieSort | limitTo: displayOptions.moviesLimit">
+                    <div class="mediaList-item-meta">
+                        <div class="media">
+                            <div class="media-img media-img_poster">
+                                <img class="imgContstrained" ng-src="{{movie.posters.thumbnail}}" alt="{{movie.title}}" />
+                            </div>
+                            <div class="media-bd">
+                                <h2 class="hdg hdg_movieTitle js-title">{{movie.title}}</h2>
+                                <div class="stack">
+                                    <div class="stack-chunk">
+                                        <ul class="hList mix-hList_spaced">
+                                            <li><span>{{movie.runtime}} min.</span></li>
+                                            <li><span>{{movie.release_dates.theater | date : 'mediumDate'}}</span></li>
+                                            <li><span>{{movie.mpaa_rating}}</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stack-chunk">
+                                        <ul class="hList">
+                                            <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.critics_rating)">{{movie.ratings.critics_score}} - {{movie.ratings.critics_rating}}</span></li>
+                                            <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.audience_rating)">{{movie.ratings.audience_score}} - {{movie.ratings.audience_rating}}</span></li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- END stack -->
+                            </div> <!-- END media-bd -->
+                        </div> <!-- END media -->
+                    </div> <!-- END mediaList-item-meta -->
+                    <div class="mediaList-item-description">
+                        <p>{{movie.synopsis}}</p>
+                    </div>
+                </li> <!-- END mediaList-item -->
+            </ul> <!-- END mediaList -->
+        </div>
+        <div class="stack-chunk" tabbed-content-directive></div>
+        <div class="stack-chunk" tabbed-content-directive></div>
+        <div class="stack-chunk" tabbed-content-directive></div>
     </div> <!-- END page-wrapper -->
     <script src="assets/scripts/vendor/angular/angular.min.js"></script>
     <script src="assets/scripts/app.js"></script>

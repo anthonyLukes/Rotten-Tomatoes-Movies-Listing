@@ -52,6 +52,28 @@
         return MoviesProvider;
     });
 
+    app.directive('tabbedContentDirective', function() {
+        return {
+            restrict: "A",
+            scope: {
+                items: "="
+            },
+            templateUrl: "assets/scripts/tabbedContentTemplate.html",
+            controller: function() {
+                this.activeTab = 1;
+
+                this.setCurrentTab = function(tabNumber) {
+                    this.activeTab = tabNumber;
+                };
+
+                this.isTabActive = function(tabNumber) {
+                    return tabNumber === this.activeTab;
+                }
+            },
+            controllerAs: 'tab'
+        }
+    });
+
     app.controller("MoviesController", ["$http","$scope", "moviesProvider", function($http,$scope,moviesProvider) {
         $scope.movies = [];
         $scope.movieLoadingError = false;
