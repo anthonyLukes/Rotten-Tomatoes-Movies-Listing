@@ -330,7 +330,7 @@ textarea {
  Tabbed Content
 ------------------------------------------------------------------------ */
 .tabbedContent {
-    border: 1px solid #000000;
+    margin: 15px;
 }
 
 .tabbedContent-nav:before,
@@ -347,21 +347,26 @@ textarea {
     float: left;
 }
 
-.tabbedContent-nav > * + * > a {
-    border-left: 1px solid #000000;
+.tabbedContent-nav > * + * > a {-
+
 }
 
 .tabbedContent-nav > * > a {
     display: inline-block;
-    padding: 10px;
+    padding: 7px 10px;
     color: #000000;
+    text-decoration: none;
+    margin-left: 4px;
+    border: 2px solid #bbbbbb;
+    border-bottom: 0;
 }
 
 .tabbedContent-nav-item_isActive {
-    background-color: #999999;
+    background-color: #dddddd;
 }
 
 .tabbedContent-panel {
-    background-color: #999999;
+    background-color: #dddddd;
     padding: 15px;
+    border: 2px solid #bbbbbb;
 }

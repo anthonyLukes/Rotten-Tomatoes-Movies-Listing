@@ -58,7 +58,7 @@
             scope: {
                 items: "="
             },
-            templateUrl: "assets/scripts/tabbedContentTemplate.html",
+            templateUrl: "assets/scripts/templates/tabbedContentTemplate.html",
             controller: function() {
                 this.activeTab = 1;
 
