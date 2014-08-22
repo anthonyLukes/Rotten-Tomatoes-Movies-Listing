@@ -48,7 +48,7 @@
                     <div class="mediaList-item-meta">
                         <div class="media">
                             <div class="media-img media-img_poster">
-                                <img class="imgContstrained" ng-src="{{movie.posters.thumbnail}}" alt="{{movie.title}}" />
+                                <img class="imgContstrained" ng-src="{{movie.thumbnail}}" alt="{{movie.title}}" />
                             </div>
                             <div class="media-bd">
                                 <h2 class="hdg hdg_movieTitle js-title">{{movie.title}}</h2>
@@ -56,14 +56,14 @@
                                     <div class="stack-chunk">
                                         <ul class="hList mix-hList_spaced">
                                             <li><span>{{movie.runtime}} min.</span></li>
-                                            <li><span>{{movie.release_dates.theater | date : 'mediumDate'}}</span></li>
-                                            <li><span>{{movie.mpaa_rating}}</span></li>
+                                            <li><span>{{movie.releaseDate | date : 'mediumDate'}}</span></li>
+                                            <li><span>{{movie.mpaaRating}}</span></li>
                                         </ul>
                                     </div>
                                     <div class="stack-chunk">
                                         <ul class="hList">
-                                            <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.critics_rating)">{{movie.ratings.critics_score}} - {{movie.ratings.critics_rating}}</span></li>
-                                            <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.audience_rating)">{{movie.ratings.audience_score}} - {{movie.ratings.audience_rating}}</span></li>
+                                            <li><span class="rating" ng-class="getRatingCssClass(movie.criticsRating)">{{movie.criticsScore}} - {{movie.criticsRating}}</span></li>
+                                            <li><span class="rating" ng-class="getRatingCssClass(movie.audienceRating)">{{movie.audienceScore}} - {{movie.audienceRating}}</span></li>
                                         </ul>
                                     </div>
                                 </div> <!-- END stack -->
@@ -84,6 +84,7 @@
     <script src="assets/scripts/app.js"></script>
     <script src="assets/scripts/components/movielist/movie-list-filter.js"></script>
     <script src="assets/scripts/components/movielist/movie-list-provider.js"></script>
+    <script src="assets/scripts/components/movielist/movie-model.js"></script>
     <script src="assets/scripts/components/movielist/movie-list-controller.js"></script>
     <script src="assets/scripts/components/tabbedcontent/tabbed-content-directive.js"></script>
 </body>

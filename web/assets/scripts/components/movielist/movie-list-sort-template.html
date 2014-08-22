@@ -4,12 +4,12 @@
 
         <label class="isVisuallyHidden" for="sort">Sort Movies</label>
         <select class="js-sort" name="sort" id="sort" ng-model="displayOptionsTemporary.movieSort">
-            <option value="-ratings.critics_score">Critics Score Descending</option>
-            <option value="ratings.critics_score">Critics Score Ascending</option>
-            <option value="-ratings.audience_score">Audience Score Descending</option>
-            <option value="ratings.audience_score">Audience Score Ascending</option>
-            <option value="-release_dates.theater">Most Recent Theater Date</option>
-            <option value="release_dates.theater">Oldest Theater Date</option>
+            <option value="-criticsScore">Critics Score Descending</option>
+            <option value="criticsScore">Critics Score Ascending</option>
+            <option value="-audienceScore">Audience Score Descending</option>
+            <option value="audienceScore">Audience Score Ascending</option>
+            <option value="-releaseDate">Most Recent Theater Date</option>
+            <option value="releaseDate">Oldest Theater Date</option>
         </select>
 
         <label class="isVisuallyHidden" for="limit">Limit number of movies</label>

@@ -50,7 +50,18 @@ app.controller("MoviesController", ["$http","$scope", "movieListProvider", funct
 
     moviesProvider.getMovies().then(function(data) {
         // success
-        $scope.movies = data.movies;
+        var movies = [];
+
+        for (var i = 0; i < data.movies.length; i++) {
+            var myMovieObj = new app.MovieModel;
+            var myMovie = myMovieObj.toJSON(data.movies[i]);
+            console.log("myMovie", myMovie);
+            movies.push(myMovie);
+        };
+
+        console.log("movies", movies);
+
+        $scope.movies = movies;
     }, function(reason) {
         // error
         $scope.movieLoadingError = true;
