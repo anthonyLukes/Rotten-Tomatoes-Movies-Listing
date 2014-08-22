@@ -51,19 +51,29 @@
                                 <img class="imgContstrained" ng-src="{{movie.posters.thumbnail}}" alt="{{movie.title}}" />
                             </div>
                             <div class="media-bd">
-                                <h2 class="hdg hdg_movieTitle js-title">{{movie.title}}</h2>
+                                <h2 class="hdg hdg_movieTitle js-title" ng-bind="movie.title"></h2>
                                 <div class="stack">
                                     <div class="stack-chunk">
                                         <ul class="hList mix-hList_spaced">
-                                            <li><span>{{movie.runtime}} min.</span></li>
-                                            <li><span>{{movie.release_dates.theater | date : 'mediumDate'}}</span></li>
-                                            <li><span>{{movie.mpaa_rating}}</span></li>
+                                            <li><span ng-bind="movie.runtime"></span> min.</li>
+                                            <li><span ng-bind="movie.release_dates.theater | date : 'mediumDate'"></span></li>
+                                            <li><span ng-bind="movie.mpaa_rating"></span></li>
                                         </ul>
                                     </div>
                                     <div class="stack-chunk">
                                         <ul class="hList">
-                                            <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.critics_rating)">{{movie.ratings.critics_score}} - {{movie.ratings.critics_rating}}</span></li>
-                                            <li><span class="rating" ng-class="getRatingCssClass(movie.ratings.audience_rating)">{{movie.ratings.audience_score}} - {{movie.ratings.audience_rating}}</span></li>
+                                            <li>
+                                                <span class="rating" ng-class="getRatingCssClass(movie.ratings.critics_rating)">
+                                                    <span ng-bind="movie.ratings.critics_score"></span> -
+                                                    <span ng-bind="movie.ratings.critics_rating"</></span>
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="rating" ng-class="getRatingCssClass(movie.ratings.audience_rating)">
+                                                    <span ng-bind="movie.ratings.audience_score"></span> -
+                                                    <span ng-bind="movie.ratings.audience_rating"></span>
+                                                </span>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div> <!-- END stack -->
