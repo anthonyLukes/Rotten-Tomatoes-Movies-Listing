@@ -10,8 +10,8 @@ app.MovieModel = (function(){
             thumbnail: movieData.posters.thumbnail,
             audienceRating: movieData.ratings.audience_rating,
             audienceScore: movieData.ratings.audience_score,
-            criticsRating: movieData.ratings.audience_rating,
-            criticesScore: movieData.ratings.audience_score,
+            criticsRating: movieData.ratings.critics_rating,
+            criticsScore: movieData.ratings.critics_score,
             releaseDate: movieData.release_dates.theater,
             synopsis: movieData.synopsis,
             runtime: movieData.runtime

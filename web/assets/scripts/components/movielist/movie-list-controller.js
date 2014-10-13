@@ -3,7 +3,7 @@ app.controller("MoviesController", ["$http","$scope", "movieListProvider", funct
     $scope.movieLoadingError = false;
 
     $scope.displayOptions = {
-        movieSort: "ratings.critics_score",
+        movieSort: "criticsScore",
         moviesLimit: 10
     };
 
@@ -55,11 +55,8 @@ app.controller("MoviesController", ["$http","$scope", "movieListProvider", funct
         for (var i = 0; i < data.movies.length; i++) {
             var myMovieObj = new app.MovieModel;
             var myMovie = myMovieObj.toJSON(data.movies[i]);
-            console.log("myMovie", myMovie);
             movies.push(myMovie);
         };
-
-        console.log("movies", movies);
 
         $scope.movies = movies;
     }, function(reason) {
